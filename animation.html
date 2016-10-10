@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <svg width= "400" height="500">
+  <rect x="50" y="150" width="200" height="200" fill="darkred"/>
+    <polygon points="150 0 50 150 250 150" fill="black" fill-opacity="0.9"/>
+    <rect x=70 y="130" width="60" height="100" fill="black" fill-opacity="0.3"/>
+    <rect x=170 y="130" width="60" height="100" fill="black" fill-opacity="0.3"/>
+    <circle cx="150" cy="130" r="10" fill="gray">
+      <animate id="anim1" attributeName="fill" from="red" to="orange" dur="2s" begin="0s; anim6.end"/>
+      <animate id="anim2" attributeName="fill" from="white" to="yellow" dur="2s" begin="anim1.end"/>
+      <animate id="anim3" attributeName="fill" from="orange" to="lime" dur="2s" begin="anim2.end"/>
+      <animate id="anim4" attributeName="fill" from="green" to="cyan" dur="2s" begin="anim3.end"/>
+      <animate id="anim5" attributeName="fill" from="blue" to="magenta" dur="2s" begin="anim4.end"/>
+      <animate id="anim6" attributeName="fill" from="pink" to="red" dur="2s" begin="anim5.end"/>
+  </circle>
+    <text x="58" y="380" font-family="cambria" font-size="25" fill="green">This is my house</text>
+     <rect x="110" y="250" width="70" height="100" fill="orange"/>
+     <circle cx="169" cy="300" r="5" fill="black"/>
+   </circle>
+     <rect x="5"y="5" width="20" height="20" fill="purple">
+      <animate id="rect1" attributeName="x" from="0" to="100" dur="2s" begin="0s; rect2.end"/>
+      <animate id="rect2" attributeName="x" from="100" to="0" dur="2s" begin="rect1.end"/>
+    </rect>
+    <line x1="155" y1="60" x2="150" y2="70" stroke="purple" stroke-width="8">
+        <animate attributeName="x1" from="150" to="200" dur="1s" repeatCount="indifinite"/>
+        <animate attributeName="y1" from="200" to="450" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="x2" from="100" to="150" dur="1s" repeatCount="indefinite"/>
+        <animate attributeName="y2" from="250" to="450" dur="5s" repeatCount="indefinite"/>
+<p style="color: green"> My house represents a witches home.The purple illustration "flying" on top of the house represents the witiches pet, a crow. Which she uses to conduct evil and naughty things to people. She uses the crow as her way to receive information.</p>
+</svg>
+  </body>
+</html>
